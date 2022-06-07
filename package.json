@@ -6,7 +6,8 @@
   "scripts": {
     "callback": "node src/callback/index.js",
     "callback:challenge": "node src/callback/challenge.js",
-    "promise": "node src/promise/index.js"
+    "promise": "node src/promise/index.js",
+    "promise:challenge": "node src/promises/challenge.js"
   },
   "keywords": [
     "callbacks",
@@ -14,5 +15,9 @@
     "async"
   ],
   "author": "Victoria Solís",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "xmlhttprequest": "^1.8.0"
+  }
 }
